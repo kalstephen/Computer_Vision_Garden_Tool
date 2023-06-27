@@ -1,0 +1,10 @@
+# Computer_Vision_Garden_Tool
+Garden Monitoring Tool
+
+This study explores the application of computer vision and machine learning techniques in the detection of grass and weed in agricultural settings. The objective was to compare the performance of different feature extraction methods and algorithms in classifying images into categories of grass, maize, sugarcane, and cassava. Three feature extraction methods, namely color histograms, ORB features, and color moments, were employed, along with two classification algorithms, K-Nearest Neighbors (KNN) and Gaussian Naive Bayes (GaussianNB). Additionally, a Convolutional Neural Network (CNN) approach was utilized for comparison.
+
+The results showed that the color histogram-based features achieved the highest accuracy, with KNN achieving 98\% accuracy and GaussianNB achieving 95\% accuracy. This suggests that color information plays a crucial role in distinguishing between different categories. On the other hand, ORB features yielded lower accuracies of 52\% for KNN and 40\% for GaussianNB, emphasizing the importance of color information in the classification task. Color moments resulted in an accuracy of 62\% for both KNN and GaussianNB. After hyperparameter tuning, the accuracy of KNN improved to 79\%.
+
+Comparatively, the CNN approach achieved an overall accuracy of 91\%, which was lower than the accuracy obtained with the color histogram-based features. However, it is important to note that further refinement of the CNN architecture and hyperparameters may lead to improved results.
+
+The findings highlight the relevance of computer vision and machine learning in the detection of grass and weed in agricultural settings. Accurate classification of vegetation types can assist farmers in effectively managing crop growth, optimizing resource allocation, and controlling weed infestation. The study demonstrates the potential of utilizing computer vision techniques to automate the detection and classification process, enabling more efficient and precise agricultural practices.
